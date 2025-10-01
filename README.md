@@ -1,10 +1,10 @@
 # Aspect Ratio Presentation App
 
-A Flutter application demonstrating aspect ratios for educational purposes.
+A Flutter application demonstrating aspect ratios for class widget presentation.
 
 ##  Project Overview
 
-This interactive Flutter app was created for a class presentation on **Aspect Ratios**. It provides visual demonstrations and real-world examples of how aspect ratios work in digital media.
+This interactive Flutter app was created for a class presentation on Aspect Ratios. It provides visual demonstrations and real-world examples of how aspect ratios work in digital media.
 
 ##  What is Aspect Ratio?
 
@@ -18,14 +18,15 @@ For example:
 
 ##  Aspect Ratios Demonstrated
 
-| Aspect Ratio | Name | Common Uses |
-|-----|------|-------------|
-| 16:9 | Widescreen | YouTube videos, Modern TVs, Laptops |
-| 4:3 | Standard | Old TVs, iPad, Classic monitors |
-| 1:1 | Square | Instagram posts, Profile pictures |
-| 9:16 | Portrait | TikTok, Instagram Stories, Snapchat |
-| 21:9 | Ultra Wide | Cinema, Ultra-wide monitors |
-| 3:2 | Photography | DSLR cameras, Print photos |
+| Aspect Ratio | Name         | Common Uses                                   |
+|--------------|--------------|----------------------------------------------- |
+| 16:9         | Widescreen    | YouTube videos, Modern TVs, Laptops           |
+| 4:3          | Standard      | Old TVs, iPads, Classic monitors              |
+| 1:1          | Square        | Instagram posts, Profile pictures             |
+| 9:16         | Portrait      | TikTok, Instagram Stories, Snapchat           |
+| 21:9         | Ultra Wide    | Cinema, Ultra-wide monitors                   |
+| 3:2          | Photography   | DSLR cameras, Print photos                    |
+
 
 ##  Features
 
@@ -47,8 +48,8 @@ For example:
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url>
-cd class000
+git clone https://github.com/WamalwaSydney/widget_presentation.git
+cd widget_presentation
 ```
 
 2. Install dependencies:
@@ -61,7 +62,7 @@ flutter pub get
 flutter run
 ```
 
-## 🎨 How to Use the App
+##  How to Use the App
 
 1. **Launch** the application on your device
 2. **Read** the information card at the top explaining aspect ratios
@@ -69,7 +70,7 @@ flutter run
 4. **Tap** different ratios in the bottom grid to see how they change
 5. **Observe** how the colored box maintains exact proportions for each ratio
 
-## 📚 Presentation Key Points
+##  Presentation Key Points
 
 ### Why Aspect Ratios Matter:
 
@@ -85,7 +86,7 @@ flutter run
 - **Photography** - 3:2 matches most DSLR sensors and print standards
 - **Gaming** - 21:9 provides immersive ultra-wide gaming experience
 
-## 🛠️ Technical Implementation
+##  Technical Implementation
 
 The app uses Flutter's `AspectRatio` widget to maintain exact proportions:
 
@@ -98,26 +99,13 @@ AspectRatio(
 )
 ```
 
-## 📖 Flutter Resources
+##  Flutter Resources
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [AspectRatio Widget](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html)
 
-## 🎓 Learning Outcomes
-
-By using this app, students will understand:
-- The mathematical concept of aspect ratios
-- How aspect ratios affect visual content
-- Industry standards for different media types
-- Practical applications in digital content creation
-
-## 👨‍💻 Project Structure
-
-```
-lib/
-└── main.dart          # Main application code with AspectRatioDemo widget
 ```
 
 ## 🤝 Contributing
@@ -133,5 +121,3 @@ This project is created for educational purposes.
 Created for a class presentation on Aspect Ratios by Sydney Erik Wamalwa
 
 ---
-
-**Note:** This app is designed to run on Android devices. Make sure you have an Android emulator running or a physical device connected before launching the app.
